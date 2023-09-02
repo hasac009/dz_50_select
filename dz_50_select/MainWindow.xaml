@@ -1,0 +1,15 @@
+﻿<Window x:Class="dz_50_select.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dz_50_select"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+    <Grid >
+        <Button Content="Start" HorizontalAlignment="Center" Click="StartButton_Click" VerticalAlignment="Center" Height="33" Width="128"/>
+        <TextBlock x:Name="TbNamePerson" HorizontalAlignment="Left" Margin="25,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="424" Width="237"/>
+        <TextBlock x:Name="TbTask" HorizontalAlignment="Left" Margin="508,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="423" Width="237"/>
+
+    </Grid>
+</Window>
